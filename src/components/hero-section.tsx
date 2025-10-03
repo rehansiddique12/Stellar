@@ -7,7 +7,7 @@ import MaxWidthWrapper from "./max-width-wrapper";
 
 const Herosection = () => {
   return (
-<div className="text-center pt-40 md:pt-42 h-full px-4 md:px-0">
+<div className="text-center pt-40 md:pt-52 h-full px-4 md:px-0">
       <MaxWidthWrapper>
       <p className="text-parpal text-base md:text-lg">Our Framer Template</p>
         <p className="text-3xl md:text-6xl font-semibold mt-3 md:mt-5">Save time and build </p>

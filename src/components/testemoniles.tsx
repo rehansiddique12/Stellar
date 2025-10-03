@@ -11,8 +11,9 @@ import { TestimonialsColumn } from "./ui/testimonials-columns-1";
 
 const Testemoniles = () => {
   return (
-    <MaxWidthWrapper>
-    <div className="flex flex-col items-center justify-center h-full w-full py-20">
+    <div className="py-20">
+      <MaxWidthWrapper>
+    <div className="flex flex-col items-center justify-center h-full w-full ">
       <p className="text-parpal">Our Customers</p>
       <p className="text-3xl md:text-6xl font-semibold mt-3 md:mt-5">See what our </p>
       <p className="text-3xl md:text-6xl font-semibold mt-3 md:mt-5">customers are <span className="bg-parpal/80 border-parpal text-white font-bold rounded-full px-3 py-1 md:px-4 md:py-2">saying</span></p>
@@ -35,6 +36,7 @@ const Testemoniles = () => {
         </section>
     </div>
       </MaxWidthWrapper>
+    </div>
   );
 };
 

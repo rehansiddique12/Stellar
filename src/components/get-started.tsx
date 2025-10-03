@@ -7,7 +7,7 @@ const Getstarted = () => {
       <MaxWidthWrapper>
         <div className="flex flex-col ">
           <div className="grid md:grid-cols-2 gap-10">
-            <div className="flex items-center justify-center">
+            <div className="hidden md:flex items-center justify-center">
                 <img src={six} alt="" />
             </div>
             <div className="flex flex-col gap-5">
@@ -15,11 +15,14 @@ const Getstarted = () => {
                 <p className="text-5xl font-bold">Start your</p>
                 <span className="text-5xl font-bold">Stellar journey here.</span>
                 <p className="text-lg">Unlock the power of data analytics and gain actionable insights to make informed business decisions.</p>
-              <div className="w-full space-y-5 flex flex-col mt-10">
-                  <input type="text" placeholder="Enter your email" className="border border-border rounded-full px-4 py-2 focus:outline-parpal" />
-                  <button className="bg-parpal text-white px-5 py-2 rounded-3xl duration-500 cursor-pointer hover:bg-white border border-parpal hover:text-parpal "> Subscribe </button>
+              <div className="w-full space-y-5 flex flex-col mt-5">
+                  <input type="text" placeholder="Enter your email" className="border border-border rounded-full px-4 py-4 focus:outline-parpal" />
+                  <button className="bg-parpal text-white px-5 py-3 rounded-3xl duration-500 cursor-pointer hover:bg-white border border-parpal hover:text-parpal"> Subscribe </button>
               </div>
                 
+            </div>
+            <div className="flex md:hidden items-center justify-center">
+                <img src={six} alt="" />
             </div>
             
           </div>

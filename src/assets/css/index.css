@@ -10,6 +10,22 @@
 
 }
 
+.animated-path {
+  stroke: url(#line-gradient);
+  stroke-width: 2;
+  fill: none;
+  stroke-dasharray: 8;      /* length of dashes */
+  stroke-dashoffset: 0;     /* starting point */
+  animation: dashmove 3s linear infinite;
+}
+
+@keyframes dashmove {
+  to {
+    stroke-dashoffset: -100; /* move dash along the path */
+  }
+}
+
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
